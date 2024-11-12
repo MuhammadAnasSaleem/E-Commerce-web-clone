@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo/logo.svg";
 import { CiSearch } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { IoCart } from "react-icons/io5";
@@ -14,7 +14,7 @@ const links = [
 export default function () {
   const navLinkStyle =
     " hover:underline cursor-pointer hover:text-primary font-base";
-  const isLoggedIn = false;
+  const isLoggedIn = true;
   return (
     <div className=" h-28 flex justify-around items-center border-b-[1px] border-slate-400">
       <img src={logo} alt="logo" width={100} height={100} />
