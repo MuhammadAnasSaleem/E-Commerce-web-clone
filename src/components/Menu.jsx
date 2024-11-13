@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../assets/photos/banner.webp";
 import Slider from "./Slider";
 
 export default function Menu() {

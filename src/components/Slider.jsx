@@ -12,13 +12,13 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
-import banner from "../assets/photos/banner.webp";
-import banner2 from "../assets/photos/banner2.jfif";
-import banner3 from "../assets/photos/banner3.jfif";
-import banner4 from "../assets/photos/banner4.webp";
-import banner5 from "../assets/photos/banner5.jfif";
-import banner6 from "../assets/photos/banner6.jfif";
-const images = [banner, banner2, banner3, banner4, banner5, banner6];
+import banner1 from "../assets/photos/banners/banner1.jpg";
+import banner2 from "../assets/photos/banners/banner2.jpg";
+import banner3 from "../assets/photos/banners/banner3.webp";
+import banner4 from "../assets/photos/banners/banner4.jfif";
+import banner5 from "../assets/photos/banners/banner5.jfif";
+import banner6 from "../assets/photos/banners/banner6.jpg";
+const images = [banner3, banner2, banner1, banner4, banner5, banner6];
 
 export default function Slider() {
   const styles = {
