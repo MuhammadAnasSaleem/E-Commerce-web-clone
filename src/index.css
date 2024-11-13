@@ -2,6 +2,7 @@
 
 * {
   font-family: "Poppins";
+  --primary: #db4444;
 }
 @tailwind base;
 @tailwind components;
