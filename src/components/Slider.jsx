@@ -54,7 +54,6 @@ export default function Slider() {
         pagination={{ clickable: true }}
         navigation
         scrollbar={{ draggable: true }}
-        onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
         {images.map((img, index) => (

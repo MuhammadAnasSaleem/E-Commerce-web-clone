@@ -32,7 +32,7 @@ export default function SaleCounter() {
 
   return (
     <div className="mt-24 px-[80px]">
-      <div className="flex gap-3">
+      <div className="flex gap-4">
         <div className="w-5 h-10 bg-primary rounded-sm"></div>
         <p className="text-primary">Today's</p>
       </div>

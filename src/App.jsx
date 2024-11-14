@@ -6,6 +6,12 @@ import Menu from "./components/Menu";
 import Slider from "./components/Slider";
 import SaleCounter from "./components/SaleCounter";
 import ProductCard from "./components/ProductCard";
+import DemoCard from "./components/DemoCard";
+import Mycard from "./components/Mycard";
+import gamepad from "./assets/photos/products/gamepad.png";
+import keyboard from "./assets/photos/products/keyboard.png";
+import moniter from "./assets/photos/products/gamingmoniter.png";
+import chair from "./assets/photos/products/comfortchair.png";
 function App() {
   return (
     <>
@@ -13,7 +19,12 @@ function App() {
       <Navbar />
       <Menu />
       <SaleCounter />
-      <ProductCard />
+      <div className="flex justify-around items-center  gap-3">
+        <Mycard img={keyboard} />
+        <Mycard img={gamepad} />
+        <Mycard img={chair} />
+        <Mycard img={moniter} />
+      </div>
     </>
   );
 }
