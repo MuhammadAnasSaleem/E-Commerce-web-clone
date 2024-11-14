@@ -6,7 +6,6 @@ import Menu from "./components/Menu";
 import Slider from "./components/Slider";
 import SaleCounter from "./components/SaleCounter";
 import ProductCard from "./components/ProductCard";
-import DemoCard from "./components/DemoCard";
 import Mycard from "./components/Mycard";
 import gamepad from "./assets/photos/products/gamepad.png";
 import keyboard from "./assets/photos/products/keyboard.png";
