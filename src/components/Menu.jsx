@@ -3,7 +3,7 @@ import Slider from "./Slider";
 
 export default function Menu() {
   return (
-    <div className="flex justify-around pt-10">
+    <div className="flex justify-start pt-10 ml-[135px] gap-20">
       <div>
         <ul className="flex flex-col gap-4 ">
           <li className="cursor-pointer hover:underline">Woman’s Fashion </li>

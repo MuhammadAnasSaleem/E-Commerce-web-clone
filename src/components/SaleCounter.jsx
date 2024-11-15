@@ -31,7 +31,7 @@ export default function SaleCounter() {
   }, []); // Empty dependency array means this effect runs once when the component mounts
 
   return (
-    <div className="mt-24 px-[80px]">
+    <div className="mt-24 ml-[135px]">
       <div className="flex gap-4">
         <div className="w-5 h-10 bg-primary rounded-sm"></div>
         <p className="text-primary">Today's</p>

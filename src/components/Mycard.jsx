@@ -24,7 +24,6 @@ const StarRating = ({ rating, totalStars = 5 }) => {
 };
 
 export default function Mycard(props) {
-  const rating = 4;
   return (
     <div className="">
       <div className="w-64 h- bg-gray-200 p-3 rounded">
@@ -62,14 +61,17 @@ export default function Mycard(props) {
       </div>
       <div className="flex flex-col gap-2">
         <div className="mt-5 leading-9">
-          <p className="text-base font-medium">HAVIT HV-G92 Gamepad</p>
+          <p className="text-base font-medium">{props.title}</p>
         </div>
         <div>
           <p className="text-[#db4444] flex gap-3">
-            $120 <span className="line-through text-gray-400">$160</span>
+            {props.price}
+            <span className="line-through text-gray-400">
+              {props.originalPrice}
+            </span>
           </p>
         </div>
-        <StarRating rating={rating} />
+        <StarRating rating={props.rating} />
       </div>
     </div>
   );

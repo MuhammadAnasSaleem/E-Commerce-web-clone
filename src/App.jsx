@@ -11,19 +11,17 @@ import gamepad from "./assets/photos/products/gamepad.png";
 import keyboard from "./assets/photos/products/keyboard.png";
 import moniter from "./assets/photos/products/gamingmoniter.png";
 import chair from "./assets/photos/products/comfortchair.png";
+import ProductSlider from "./components/ProductSlider";
+import Flashsale from "./components/Flashsale";
+import Button from "./components/Button";
+
 function App() {
   return (
     <>
       <Banner />
       <Navbar />
       <Menu />
-      <SaleCounter />
-      <div className="flex justify-around items-center  gap-3">
-        <Mycard img={keyboard} />
-        <Mycard img={gamepad} />
-        <Mycard img={chair} />
-        <Mycard img={moniter} />
-      </div>
+      <Flashsale />
     </>
   );
 }
