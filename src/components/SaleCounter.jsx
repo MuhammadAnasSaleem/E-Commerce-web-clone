@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Redbox from "./Redbox";
 
 export default function SaleCounter() {
   const [time, setTime] = useState({
@@ -32,10 +33,8 @@ export default function SaleCounter() {
 
   return (
     <div className="mt-24 ml-[135px]">
-      <div className="flex gap-4">
-        <div className="w-5 h-10 bg-primary rounded-sm"></div>
-        <p className="text-primary">Today's</p>
-      </div>
+      <Redbox text="Today 's" />
+
       <div className="flex mt-5 gap-20 items-center">
         <div className="font-semibold text-4xl">Flash Sales</div>
         <div className="flex gap-2">

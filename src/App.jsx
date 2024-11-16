@@ -14,6 +14,9 @@ import chair from "./assets/photos/products/comfortchair.png";
 import ProductSlider from "./components/ProductSlider";
 import Flashsale from "./components/Flashsale";
 import Button from "./components/Button";
+import Redbox from "./components/Redbox";
+import Categorybox from "./components/Categorybox";
+import Categories from "./components/Categories";
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
       <Navbar />
       <Menu />
       <Flashsale />
+      <Categories />
+      <Categories />
     </>
   );
 }

@@ -10,7 +10,7 @@ export default function Flashsale() {
       <ProductSlider />
       <div className="flex justify-center mt-[60px]">
         <Button
-          text="button"
+          text="View All Products"
           classname="px-[48] py-[16] rounded w-[234px] h-[56px]"
         />
       </div>
