@@ -1,5 +1,5 @@
 import React from "react";
-import ProductSlider from "./ProductSlider";
+import FlashSaleSlider from "./FlashSaleSlider";
 import SaleCounter from "./SaleCounter";
 import Button from "./Button";
 
@@ -7,7 +7,7 @@ export default function Flashsale() {
   return (
     <div>
       <SaleCounter />
-      <ProductSlider />
+      <FlashSaleSlider />
       <div className="flex justify-center mt-[60px]">
         <Button
           text="View All Products"

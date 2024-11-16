@@ -13,10 +13,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import dogfood from "../assets/photos/products/dogfood.png";
+import camera from "../assets/photos/products/dslrcamera.png";
+import laptop from "../assets/photos/products/gaminglaptop.png";
+import gamingmoniter from "../assets/photos/products/gamingmoniter.png";
 import keyboard from "../assets/photos/products/keyboard.png";
 import chair from "../assets/photos/products/comfortchair.png";
 import gamepad from "../assets/photos/products/gamepad.png";
-import gamingmoniter from "../assets/photos/products/gamingmoniter.png";
 
 export default function CardListSlider({
   title,
@@ -24,59 +27,51 @@ export default function CardListSlider({
   numberOfCards,
   product = [
     {
-      img: keyboard,
-      title: "Keyboard",
-      price: "$960",
-      originalPrice: "$1160",
+      img: dogfood,
+      title: "Breed Dry Dog Food",
+      price: "$100",
+      rating: 3,
+    },
+    {
+      img: camera,
+      title: "CANON EOS DSLR Camera",
+      price: "$360",
       rating: 4,
     },
     {
-      img: chair,
-      title: "chair",
-      price: "$375",
-      originalPrice: "$400",
-      rating: 4.5,
-    },
-    {
-      img: gamepad,
-      title: "gamepad",
-      price: "$120",
-      originalPrice: "$160",
+      img: laptop,
+      title: "ASUS FHD Gaming Laptop",
+      price: "$700",
       rating: 5,
     },
     {
       img: gamingmoniter,
-      title: "gamingmoniter",
+      title: "IPS LCD Gaming Monitor ",
       price: "$370",
-      originalPrice: "$400",
       rating: 5,
     },
     {
       img: keyboard,
-      title: "Keyboard",
+      title: "AK-900 Wired Keyboard",
       price: "$960",
-      originalPrice: "$1160",
       rating: 4,
     },
     {
       img: chair,
-      title: "chair",
+      title: "S-Series Comfort Chair ",
       price: "$375",
-      originalPrice: "$400",
       rating: 4.5,
     },
     {
       img: gamepad,
-      title: "gamepad",
+      title: "HAVIT HV-G92 Gamepad",
       price: "$120",
-      originalPrice: "$160",
       rating: 5,
     },
     {
       img: gamingmoniter,
-      title: "gamingmoniter",
+      title: "IPS LCD Gaming Monitor",
       price: "$370",
-      originalPrice: "$400",
       rating: 5,
     },
   ],
@@ -99,7 +94,7 @@ export default function CardListSlider({
   const isLoading = !product || product.length === 0;
 
   return (
-    <div className="my-14 ml-[135px]">
+    <div className="my-14 mx-[135px]">
       <div className="mb-8 flex justify-between">
         <div className="relative flex w-full items-center">
           <h3 className="text-xl font-semibold text-secondary">{title}</h3>
