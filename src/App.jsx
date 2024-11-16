@@ -17,6 +17,7 @@ import Button from "./components/Button";
 import Redbox from "./components/Redbox";
 import Categorybox from "./components/Categorybox";
 import Categories from "./components/Categories";
+import BestSelling from "./components/BestSelling";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       <Menu />
       <Flashsale />
       <Categories />
-      <Categories />
+      <BestSelling />
     </>
   );
 }
