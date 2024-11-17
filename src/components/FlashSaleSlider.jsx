@@ -29,7 +29,8 @@ export default function CardListSlider({
       price: "$960",
       originalPrice: "$1160",
       rating: 4,
-      discount: "40",
+      discount: "40%",
+      classname: "bg-primary",
     },
     {
       img: chair,
@@ -37,7 +38,8 @@ export default function CardListSlider({
       price: "$375",
       originalPrice: "$400",
       rating: 4.5,
-      discount: "40",
+      discount: "40%",
+      classname: "bg-primary",
     },
     {
       img: gamepad,
@@ -45,7 +47,8 @@ export default function CardListSlider({
       price: "$120",
       originalPrice: "$160",
       rating: 5,
-      discount: "40",
+      discount: "40%",
+      classname: "bg-primary",
     },
     {
       img: gamingmoniter,
@@ -53,15 +56,17 @@ export default function CardListSlider({
       price: "$370",
       originalPrice: "$400",
       rating: 5,
-      discount: "40",
+      discount: "40%",
+      classname: "bg-primary",
     },
+
     {
       img: keyboard,
       title: "Keyboard",
       price: "$960",
       originalPrice: "$1160",
       rating: 4,
-      discount: "40",
+      discount: "40%",
     },
     {
       img: chair,
@@ -69,7 +74,8 @@ export default function CardListSlider({
       price: "$375",
       originalPrice: "$400",
       rating: 4.5,
-      discount: "40",
+      discount: "40%",
+      classname: "bg-primary",
     },
     {
       img: gamepad,
@@ -77,7 +83,8 @@ export default function CardListSlider({
       price: "$120",
       originalPrice: "$160",
       rating: 5,
-      discount: "40",
+      discount: "40%",
+      classname: "bg-primary",
     },
     {
       img: gamingmoniter,
@@ -85,7 +92,8 @@ export default function CardListSlider({
       price: "$370",
       originalPrice: "$400",
       rating: 5,
-      discount: "40",
+      discount: "40%",
+      classname: "bg-primary",
     },
   ],
   autoplay = false,
@@ -166,6 +174,7 @@ export default function CardListSlider({
                 originalPrice={item.originalPrice}
                 rating={item.rating}
                 discount={item.discount}
+                classname={item.classname}
               />
             </SwiperSlide>
           ))}

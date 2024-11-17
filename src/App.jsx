@@ -7,6 +7,7 @@ import Flashsale from "./components/Flashsale";
 import Categories from "./components/Categories";
 import BestSelling from "./components/BestSelling";
 import OurProduct from "./components/OurProduct";
+import NewArrival from "./components/NewArrival";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Categories />
       <BestSelling />
       <OurProduct />
+      <NewArrival />
     </>
   );
 }

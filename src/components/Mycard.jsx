@@ -25,15 +25,15 @@ const StarRating = ({ rating, totalStars = 5 }) => {
 
 export default function Mycard(props) {
   return (
-    <div className="">
+    <div className="cursor-pointer">
       <div className="w-64 h- bg-gray-200 p-3 rounded">
         <div className="flex justify-between">
           {props.discount && (
             <div>
               <p
-                className={`text-white w-14 ${props.classname} flex justify-center items-center text-xs h-6`}
+                className={`text-white w-14 ${props.classname} flex justify-center items-center text-xs h-6 rounded`}
               >
-                {props.discount}%
+                {props.discount}
               </p>
             </div>
           )}
