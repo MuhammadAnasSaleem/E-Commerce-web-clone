@@ -2,6 +2,7 @@ import React from "react";
 import Redbox from "./Redbox";
 import FlashSaleSlider from "./FlashSaleSlider";
 import OurProductSlider from "./OurProductSlider";
+import Mycard from "./Mycard";
 
 export default function OurProduct() {
   return (
@@ -11,6 +12,12 @@ export default function OurProduct() {
         <div className="font-semibold text-4xl mt-5">Explore Our Products</div>
       </div>
       <OurProductSlider />
+      <div className="flex mt-[60px] gap-[20px] w-full mx-[135px]">
+        <Mycard />
+        <Mycard />
+        <Mycard />
+        <Mycard />
+      </div>
     </div>
   );
 }

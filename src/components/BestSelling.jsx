@@ -10,11 +10,13 @@ import speakerbanner from "../assets/photos/banners/speakerbanner.png";
 
 export default function BestSelling() {
   return (
-    <div className="mt-20 flex flex-col mx-[135px] overflow-hidden">
+    <div className="mt-20 flex flex-col mx-[135px] overflow-hidden ">
       <Redbox text="This Month" />
       <div className="flex justify-between items-center">
         {" "}
-        <div className="font-semibold text-4xl mt-5">Browse By Category</div>
+        <div className="font-semibold text-4xl mt-5">
+          Best Selling This Month
+        </div>
         <Button
           text="View All"
           classname="py-4 px-12 w-[159px] h-[56px] rounded"

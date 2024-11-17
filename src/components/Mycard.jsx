@@ -28,12 +28,15 @@ export default function Mycard(props) {
     <div className="">
       <div className="w-64 h- bg-gray-200 p-3 rounded">
         <div className="flex justify-between">
-          <div
-            className="text-white w-14 bg-[#db4444] flex justify-center
-    items-center text-xs h-6"
-          >
-            <p>-40%</p>
-          </div>
+          {props.discount && (
+            <div>
+              <p
+                className={`text-white w-14 ${props.classname} flex justify-center items-center text-xs h-6`}
+              >
+                {props.discount}%
+              </p>
+            </div>
+          )}
           <div className="space-y-3">
             <div
               className="w-8 h-8 bg-white flex justify-center

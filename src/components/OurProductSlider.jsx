@@ -61,6 +61,7 @@ export default function CardListSlider({
       title: "S-Series Comfort Chair ",
       price: "$375",
       rating: 4.5,
+      discount: "40%",
     },
     {
       img: gamepad,

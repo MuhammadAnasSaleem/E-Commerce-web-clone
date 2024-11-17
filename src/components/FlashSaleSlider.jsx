@@ -29,6 +29,7 @@ export default function CardListSlider({
       price: "$960",
       originalPrice: "$1160",
       rating: 4,
+      discount: "40",
     },
     {
       img: chair,
@@ -36,6 +37,7 @@ export default function CardListSlider({
       price: "$375",
       originalPrice: "$400",
       rating: 4.5,
+      discount: "40",
     },
     {
       img: gamepad,
@@ -43,6 +45,7 @@ export default function CardListSlider({
       price: "$120",
       originalPrice: "$160",
       rating: 5,
+      discount: "40",
     },
     {
       img: gamingmoniter,
@@ -50,6 +53,7 @@ export default function CardListSlider({
       price: "$370",
       originalPrice: "$400",
       rating: 5,
+      discount: "40",
     },
     {
       img: keyboard,
@@ -57,6 +61,7 @@ export default function CardListSlider({
       price: "$960",
       originalPrice: "$1160",
       rating: 4,
+      discount: "40",
     },
     {
       img: chair,
@@ -64,6 +69,7 @@ export default function CardListSlider({
       price: "$375",
       originalPrice: "$400",
       rating: 4.5,
+      discount: "40",
     },
     {
       img: gamepad,
@@ -71,6 +77,7 @@ export default function CardListSlider({
       price: "$120",
       originalPrice: "$160",
       rating: 5,
+      discount: "40",
     },
     {
       img: gamingmoniter,
@@ -78,6 +85,7 @@ export default function CardListSlider({
       price: "$370",
       originalPrice: "$400",
       rating: 5,
+      discount: "40",
     },
   ],
   autoplay = false,
@@ -157,6 +165,7 @@ export default function CardListSlider({
                 price={item.price}
                 originalPrice={item.originalPrice}
                 rating={item.rating}
+                discount={item.discount}
               />
             </SwiperSlide>
           ))}
