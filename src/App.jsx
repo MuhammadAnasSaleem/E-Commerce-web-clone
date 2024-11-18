@@ -8,6 +8,7 @@ import Categories from "./components/Categories";
 import BestSelling from "./components/BestSelling";
 import OurProduct from "./components/OurProduct";
 import NewArrival from "./components/NewArrival";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <BestSelling />
       <OurProduct />
       <NewArrival />
+      <Services />
     </>
   );
 }

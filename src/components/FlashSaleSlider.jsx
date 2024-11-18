@@ -67,6 +67,7 @@ export default function CardListSlider({
       originalPrice: "$1160",
       rating: 4,
       discount: "40%",
+      classname: "bg-primary",
     },
     {
       img: chair,
