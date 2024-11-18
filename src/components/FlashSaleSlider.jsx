@@ -17,6 +17,9 @@ import keyboard from "../assets/photos/products/keyboard.png";
 import chair from "../assets/photos/products/comfortchair.png";
 import gamepad from "../assets/photos/products/gamepad.png";
 import gamingmoniter from "../assets/photos/products/gamingmoniter.png";
+import dogfood from "../assets/photos/products/dogfood.png";
+import camera from "../assets/photos/products/dslrcamera.png";
+import laptop from "../assets/photos/products/gaminglaptop.png";
 
 export default function CardListSlider({
   title,
@@ -61,31 +64,28 @@ export default function CardListSlider({
     },
 
     {
-      img: keyboard,
-      title: "Keyboard",
-      price: "$960",
-      originalPrice: "$1160",
+      img: dogfood,
+      title: "Breed Dry Dog Food",
+      price: "$100",
+      rating: 3,
+      discount: "NEW",
+      classname: "bg-green-500",
+    },
+    {
+      img: camera,
+      title: "CANON EOS DSLR Camera",
+      price: "$360",
       rating: 4,
-      discount: "40%",
-      classname: "bg-primary",
+      discount: "NEW",
+      classname: "bg-green-500",
     },
     {
-      img: chair,
-      title: "chair",
-      price: "$375",
-      originalPrice: "$400",
-      rating: 4.5,
-      discount: "40%",
-      classname: "bg-primary",
-    },
-    {
-      img: gamepad,
-      title: "gamepad",
-      price: "$120",
-      originalPrice: "$160",
+      img: laptop,
+      title: "ASUS FHD Gaming Laptop",
+      price: "$700",
       rating: 5,
-      discount: "40%",
-      classname: "bg-primary",
+      discount: "NEW",
+      classname: "bg-green-500",
     },
     {
       img: gamingmoniter,
