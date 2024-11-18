@@ -9,6 +9,7 @@ import BestSelling from "./components/BestSelling";
 import OurProduct from "./components/OurProduct";
 import NewArrival from "./components/NewArrival";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <OurProduct />
       <NewArrival />
       <Services />
+      <Footer />
     </>
   );
 }

@@ -46,7 +46,7 @@ export default function SaleCounter() {
               type="text"
               value={time.days}
               readOnly
-              className="w-16 text-center focus:outline-none cursor-default text-4xl"
+              className="w-16 text-center focus:outline-none cursor-default text-4xl font-bold"
             />
           </div>
           <span className="text-primary text-4xl pt-4">:</span>
@@ -58,7 +58,7 @@ export default function SaleCounter() {
               type="text"
               value={time.hours}
               readOnly
-              className="w-16 text-center focus:outline-none cursor-default text-4xl"
+              className="w-16 text-center focus:outline-none cursor-default text-4xl font-bold"
             />
           </div>
           <span className="text-primary text-4xl pt-4">:</span>
@@ -71,7 +71,7 @@ export default function SaleCounter() {
               type="text"
               value={time.minutes}
               readOnly
-              className="w-16 text-center focus:outline-none cursor-default text-4xl"
+              className="w-16 text-center focus:outline-none cursor-default text-4xl font-bold"
             />
           </div>
           <span className="text-primary text-4xl pt-4">:</span>
@@ -84,7 +84,7 @@ export default function SaleCounter() {
               type="text"
               value={time.seconds}
               readOnly
-              className="w-16 text-center focus:outline-none cursor-default text-4xl"
+              className="w-16 text-center focus:outline-none cursor-default text-4xl font-bold"
             />
           </div>
         </div>
