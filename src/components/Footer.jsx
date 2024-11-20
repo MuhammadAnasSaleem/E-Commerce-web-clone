@@ -10,7 +10,7 @@ import LinkedIn from "../assets/photos/footer/linkedinicon.png";
 export default function Footer() {
   return (
     <>
-      <div className="bg-black h-[384px] mt-[140px] text-white ">
+      <div className="bg-black h-[384px] mt-6 text-white ">
         <div className="flex justify-around pt-20">
           <div className="flex flex-col gap-4">
             <h3 className="font-bold text-2xl">Exclusive</h3>

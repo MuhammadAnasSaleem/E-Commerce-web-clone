@@ -4,6 +4,10 @@
   font-family: "Poppins";
   --primary: #db4444;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
