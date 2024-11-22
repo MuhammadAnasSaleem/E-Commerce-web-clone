@@ -1,39 +1,23 @@
-import Banner from "./components/Banner";
 import "./index.css";
-import Navbar from "./components/Navbar";
-import Menu from "./components/Menu";
-import Flashsale from "./components/Flashsale";
-import Categories from "./components/Categories";
-import BestSelling from "./components/BestSelling";
-import OurProduct from "./components/OurProduct";
-import NewArrival from "./components/NewArrival";
-import Services from "./components/Services";
-import Footer from "./components/Footer";
-import { FaArrowUp } from "react-icons/fa";
+
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Notfound from "./pages/Notfound";
+import Products from "./pages/Products";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <div id="top"></div>
-      <Banner />
-      <Navbar />
-      <Menu />
-      <Flashsale />
-      <Categories />
-      <BestSelling />
-      <OurProduct />
-      <NewArrival />
-      <Services />
-      <div className="mt-32 flex justify-end pr-8 ">
-        <a
-          href="#top"
-          className="w-[46px] h-[46px] bg-gray-200 rounded-full flex justify-center items-center active:bg-gray-300"
-        >
-          <FaArrowUp />
-        </a>
-      </div>
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contact />} />
+        <Route path="*" element={<Notfound />} />{" "}
+        <Route path="/products" element={<Products />} />
+      </Routes>
+    </Router>
   );
 }
 

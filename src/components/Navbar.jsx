@@ -4,11 +4,11 @@ import { CiSearch } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { IoCart } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 const links = [
   { title: "home", link: "/" },
-  { title: "about", link: "/" },
-  { title: "contact us", link: "/" },
+  { title: "about", link: "/about" },
+  { title: "contact us", link: "/contacts" },
 ];
 
 export default function () {
@@ -33,7 +33,7 @@ export default function () {
         {links.map((items, i) => {
           return (
             <li className={navLinkStyle} key={i}>
-              <a href={items.links}>{items.title}</a>
+              <Link to={items.link}>{items.title}</Link>
             </li>
           );
         })}
