@@ -8,7 +8,7 @@ export default function Flashsale() {
     <div>
       <SaleCounter />
       <FlashSaleSlider />
-      <div className="flex justify-center mt-[60px]">
+      <div className="flex justify-around mt-[60px]">
         <Button
           text="View All Products"
           classname="px-[48] py-[16] rounded w-[234px] h-[56px]"

@@ -18,13 +18,15 @@ export default function Home() {
       <div id="top"></div>
       <Banner />
       <Navbar />
-      <Menu />
-      <Flashsale />
-      <Categories />
-      <BestSelling />
-      <OurProduct />
-      <NewArrival />
-      <Services />
+      <div className="2xl:mx-[135px] xl:mx-[90px]">
+        <Menu />
+        <Flashsale />
+        <Categories />
+        <BestSelling />
+        <OurProduct />
+        <NewArrival />
+        <Services />
+      </div>
       <Footer />
     </div>
   );

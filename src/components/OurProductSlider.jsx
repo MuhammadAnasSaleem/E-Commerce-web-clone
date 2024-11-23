@@ -95,7 +95,7 @@ export default function CardListSlider({
   const isLoading = !product || product.length === 0;
 
   return (
-    <div className="my-14 mx-[135px]">
+    <div className="my-14 ">
       <div className="mb-8 flex justify-between">
         <div className="relative flex w-full items-center">
           <h3 className="text-xl font-semibold text-secondary">{title}</h3>

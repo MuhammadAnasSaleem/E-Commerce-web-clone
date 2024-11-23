@@ -10,13 +10,13 @@ import jacket from "../assets/photos/products/jacket.png";
 
 export default function OurProduct() {
   return (
-    <div className="mx-135px overflow-hidden mt-[71px]">
-      <div className=" flex flex-col mx-[135px] ">
+    <div className=" overflow-hidden mt-[71px]">
+      <div className=" flex flex-col  ">
         <Redbox text="Our Products" />
         <div className="font-semibold text-4xl mt-5">Explore Our Products</div>
       </div>
       <OurProductSlider />
-      <div className="flex mt-[60px] gap-[20px] w-full mx-[135px]">
+      <div className="flex mt-[60px] gap-[20px] w-full justify-between">
         <Mycard
           img={electriccar}
           title="Kids Electric Car"

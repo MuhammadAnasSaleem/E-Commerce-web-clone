@@ -7,7 +7,7 @@ import perfumes from "../assets/photos/linkBanners/perfumebanner.png";
 
 export default function NewArrival() {
   return (
-    <div className="mt-[140px] mx-[135px]">
+    <div className="mt-[140px] ">
       <div className="flex flex-col">
         <Redbox text="Featured" />
         <div className="font-semibold text-4xl mt-5">New Arrival</div>

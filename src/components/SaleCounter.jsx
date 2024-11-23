@@ -32,7 +32,7 @@ export default function SaleCounter() {
   }, []); // Empty dependency array means this effect runs once when the component mounts
 
   return (
-    <div className="mt-24 ml-[135px]">
+    <div className="mt-24 ">
       <Redbox text="Today 's" />
 
       <div className="flex mt-5 gap-20 items-center">

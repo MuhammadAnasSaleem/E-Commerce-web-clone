@@ -10,7 +10,7 @@ import speakerbanner from "../assets/photos/banners/speakerbanner.png";
 
 export default function BestSelling() {
   return (
-    <div className="mt-20 flex flex-col mx-[135px] overflow-hidden ">
+    <div className="mt-20 flex flex-col  overflow-hidden ">
       <Redbox text="This Month" />
       <div className="flex justify-between items-center">
         {" "}
@@ -23,7 +23,7 @@ export default function BestSelling() {
         />
       </div>
       <div
-        className="flex mt-[60px] gap-[20px] w-full
+        className="flex mt-[60px] gap-[20px] w-full justify-between
       "
       >
         <Mycard

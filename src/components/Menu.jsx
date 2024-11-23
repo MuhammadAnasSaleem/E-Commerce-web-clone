@@ -3,7 +3,7 @@ import Slider from "./Slider";
 
 export default function Menu() {
   return (
-    <div className="flex justify-start pt-10 ml-[135px] gap-20">
+    <div className="flex justify-between pt-10  gap-20">
       <div>
         <ul className="flex flex-col gap-4 ">
           <li className="cursor-pointer hover:underline">Woman’s Fashion </li>
@@ -17,7 +17,7 @@ export default function Menu() {
           <li className="cursor-pointer hover:underline">Health & Beauty</li>
         </ul>
       </div>
-      <div className="pl-6 border-l-[1px] border-slate-400 h-[344px] w-[892px] flex justify-center items-center overflow-hidden">
+      <div className="pl-6 border-l-[1px] border-slate-400 h-[344px] w-[824px]   flex justify-center items-center overflow-hidden">
         {/* <img className="h-[344px] w-[892px]" src={banner} alt="" /> */}
         <Slider />
       </div>

@@ -7,7 +7,7 @@ import { FaArrowUp } from "react-icons/fa";
 export default function Services() {
   return (
     <>
-      <div className="mx-[135px] mt-[140px] ">
+      <div className=" mt-[140px] ">
         <div className=" h-[161px]  flex gap-[88px] justify-around">
           <div className="  flex flex-col gap-[24px]">
             <div className="flex flex-col items-center">

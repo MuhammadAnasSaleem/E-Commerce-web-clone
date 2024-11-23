@@ -4,7 +4,7 @@ import CategorySlider from "./CategorySlider";
 
 export default function Categories() {
   return (
-    <div className="mt-20 flex flex-col mx-[135px]">
+    <div className="mt-20 flex flex-col ">
       <Redbox text="Categories " />
       <div className="font-semibold text-4xl mt-5">Browse By Category</div>
       <CategorySlider />
