@@ -14,7 +14,7 @@ const links = [
 export default function () {
   const navLinkStyle =
     " hover:underline cursor-pointer hover:text-primary font-base";
-  const isLoggedIn = true;
+  const isLoggedIn = false;
   return (
     <div className=" h-28 flex justify-around items-center border-b-[1px] border-slate-400">
       <img src={logo} alt="logo" width={100} height={100} />
@@ -37,7 +37,11 @@ export default function () {
             </li>
           );
         })}
-        {!isLoggedIn ? <li className={navLinkStyle}>Login</li> : null}
+        {!isLoggedIn ? (
+          <li className={navLinkStyle}>
+            <Link to={"/login"}>Login</Link>
+          </li>
+        ) : null}
       </ul>
       <div className="flex justify-center items-center text-2xl gap-3 ">
         {isLoggedIn ? (

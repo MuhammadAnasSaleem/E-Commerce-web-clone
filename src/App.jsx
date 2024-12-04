@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Notfound from "./pages/Notfound";
 import Products from "./pages/Products";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contacts" element={<Contact />} />
         <Route path="*" element={<Notfound />} />{" "}
         <Route path="/products" element={<Products />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );
