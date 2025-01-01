@@ -17,7 +17,7 @@ export default function Menu() {
           <li className="cursor-pointer hover:underline">Health & Beauty</li>
         </ul>
       </div>
-      <div className="pl-6 border-l-[1px] border-slate-400 h-[344px] w-[824px]   flex justify-center items-center overflow-hidden">
+      <div className="pl-6 border-l-[1px] border-slate-400 h-[344px] w-[824px] xl:w-[900px] 2xl:w-[1000px] flex justify-center items-center overflow-hidden">
         {/* <img className="h-[344px] w-[892px]" src={banner} alt="" /> */}
         <Slider />
       </div>
